@@ -1,0 +1,1 @@
+[...Array(150).keys()].forEach(i => ++i && console.log(i + (0 === i % 3 || 3 === i % 10 ? "!" : "")));
